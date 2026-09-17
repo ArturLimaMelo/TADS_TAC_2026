@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tópicos avançados em computação</title>
+</head>
+<body>
+    <h1>Disciplina de Tópicos avançados em computação</h1>
+    <h3>Só clicar nos botões e ver o terminal</h3>
+    <button onclick="executarScript('scripts/U1A1.js')">Desafio 1</button>
+    <button onclick="executarScript('scripts/U1A2.js')">Desafio 2</button>
+
+    <script>
+        function executarScript(arquivo) {
+            const script = document.createElement("script");
+            script.src = arquivo;
+            document.body.appendChild(script);
+        }
+    </script>
+</body>
+</html>
