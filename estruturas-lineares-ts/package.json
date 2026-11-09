@@ -1,0 +1,17 @@
+{
+  "name": "estruturas-lineares-ts",
+  "version": "1.0.0",
+  "description": "Biblioteca genérica de pilhas e filas em TypeScript",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/testes.ts",
+    "build": "tsc",
+    "check": "tsc --noEmit",
+    "comparar": "tsx src/aplicacoes/comparacaoFilas.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
